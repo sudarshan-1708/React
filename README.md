@@ -17,4 +17,24 @@ Learning react for building projects.
 4. BAAS Apps: (backend as service)
 
 
+## Understand React flow and structure:
 
+react-scrit: actually adds the <script> in html file.
+
+```javascript
+function App() {
+  return (
+    /*
+    jsx only accepts to return only one HTML element
+    So we wrap the element in either div or fragment<> </>
+    So we return this <div> </div> or <> </> as a single element and all the desired elements are wrapped inside this.
+
+    */
+    <>  
+    <Chai />
+    <p>Learning react with vite and chai</p>
+    </>
+  )
+}
+```
+Note: <> </> is called fragment.
